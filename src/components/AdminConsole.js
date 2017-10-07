@@ -1,6 +1,7 @@
 import React from 'react';
 
 import AnnouncePoster from './AnnouncePoster';
+import NewsPoster from './NewsPoster';
 import Login from './Login';
 
 export default class AdminConsole extends React.Component {
@@ -31,6 +32,7 @@ export default class AdminConsole extends React.Component {
 
         return <div>
             <AnnouncePoster app={this.props.app} />
+            <NewsPoster app={this.props.app} />
         </div>;
     }
 }
