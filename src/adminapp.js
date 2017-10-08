@@ -1,11 +1,11 @@
 import Matrix from 'matrix-js-sdk';
 
-//const HS_URL = 'https://matrix.gnugen.ch';
-const HS_URL = 'http://localhost:8008';
+const HS_URL = 'https://communi.camp';
+//const HS_URL = 'http://localhost:8008';
 
 export default class AdminApp {
     constructor() {
-        this.roomId = '!ZXWnBDycJoVXJHZDmf:localhost';
+        this.roomId = '!cLycyFOevWWqdGhQqk:communi.camp';
 
         this.creds = this.getSavedCreds();
         this.makeClient();
