@@ -3,7 +3,7 @@ import React from 'react';
 const NEWS_INITIAL_FORM_VALS = {
     newsText: '',
     newsTitle: 'NEWS',
-    newsImage: 'http://laurent.sexy/drawing/geekerie_2014.png',
+    newsImage: 'http://example.com/example.png',
 };
 
 const MAX_TITLE_LENGTH = 30;
