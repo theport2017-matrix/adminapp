@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Big screen announcement display powered by Matrix",
   "scripts": {
+    "build": "webpack -p",
     "start": "webpack-dev-server"
   },
   "author": "",
