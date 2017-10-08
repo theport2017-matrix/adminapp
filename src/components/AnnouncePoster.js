@@ -79,8 +79,7 @@ export default class AnnouncePoster extends React.Component {
             <h2>Post an announcement</h2>
             <form onSubmit={this.onSubmit}>
                 <input type="text"
-                    className="AnnouncePoster.announceText"
-                    style={{width: "400px"}}
+                    className="AnnouncePoster_announceText"
                     value={this.state.form.announceText}
                     onChange={this.onAnnounceTextChange}
                 />

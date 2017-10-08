@@ -72,22 +72,22 @@ export default class NewsPoster extends React.Component {
 
     render() {
         return <div>
-            <h2>Post a News</h2>
+            <h2>Post News</h2>
             <form onSubmit={this.onSubmit}>
                 <input type="text" id="news_title"
-                    className="NewsPoster.newsTitle"
+                    className="NewsPoster_newsTitle"
                     value={this.state.form.newsTitle}
                     onChange={this.onNewsTitleChange}
                 />
                 <br />
                 <input type="text" id="news_text"
-                    className="NewsPoster.newsText"
+                    className="NewsPoster_newsText"
                     value={this.state.form.newsText}
                     onChange={this.onNewsTextChange}
                 />
                 <br />
                 <input type="text" id="news_image"
-                    className="NewsPoster.newsImage"
+                    className="NewsPoster_newsImage"
                     value={this.state.form.newsImage}
                     onChange={this.onNewsImageChange}
                 />

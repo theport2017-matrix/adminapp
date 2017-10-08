@@ -1,5 +1,6 @@
 .announce {
     margin: 2px;
+    width: 400px;
 }
 
 .announce-info {
@@ -13,3 +14,11 @@
 .announce-emergency {
     background-color: #e11;
 }
+
+.AnnouncePoster_announceText,
+.NewsPoster_newsTitle,
+.NewsPoster_newsText,
+.NewsPoster_newsImage {
+    width: 400px;
+}
+
