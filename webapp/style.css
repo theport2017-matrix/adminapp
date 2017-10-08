@@ -1,0 +1,15 @@
+.announce {
+    margin: 2px;
+}
+
+.announce-info {
+    background-color: #aec6cf;
+}
+
+.announce-warning {
+    background-color: #fe9;
+}
+
+.announce-emergency {
+    background-color: #e11;
+}

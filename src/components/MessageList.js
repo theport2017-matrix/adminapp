@@ -33,7 +33,7 @@ export default class MessageList extends React.Component {
 
     render() {
         const messages = this.state.events.map((e) => {
-            return <li key={e.getId()}>
+            return <li key={e.getId()} className={"announce announce-"+e.getContent().level}>
                 {e.getContent().body}
             </li>;
         });
