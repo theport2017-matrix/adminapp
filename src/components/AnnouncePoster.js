@@ -71,7 +71,7 @@ export default class AnnouncePoster extends React.Component {
                     <option value="warning">Warning</option>
                     <option value="emergency">Emergency</option>
                 </select>
-                <input type="submit" />
+                <input type="submit" value="Post" />
             </div>;
         }
 

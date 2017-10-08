@@ -92,7 +92,7 @@ export default class NewsPoster extends React.Component {
                     onChange={this.onNewsImageChange}
                 />
                 <br />
-                <input type="submit" />
+                <input type="submit" value="Post" />
             </form>
         </div>;
     }
